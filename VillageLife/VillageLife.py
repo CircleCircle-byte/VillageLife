@@ -106,7 +106,7 @@ exit2_button = Button(600, 20, 200, 50,'Exit')
 door_out_button = Button(500, 300, 200, 50,'Open door')
 lake_button = Button(500, 300, 200, 50,'Fish')
 door_in_button = Button(500, 300, 200, 50,'Open door')
-fish_button = Button(500, 300, 200, 50,'Got a bite!')
+
 
 put_button = Button(500,300, 200, 50, 'Put item')
 get_button = Button(500, 350, 200, 50, 'Get item')
