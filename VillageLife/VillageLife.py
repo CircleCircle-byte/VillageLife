@@ -299,7 +299,7 @@ while True:
             if done:
                 if success:
                     inventory['fish'] += 1
-                    success = text_font.render(f'You caught a fish! Total fish: {inventory['fish']}',True, 'black')
+                    success = text_font.render(f"You caught a fish! Total fish: {inventory['fish']}",True, 'black')
                     screen.blit(success, (20, 300))
                     pygame.display.update()
                     pygame.time.delay(2000)
